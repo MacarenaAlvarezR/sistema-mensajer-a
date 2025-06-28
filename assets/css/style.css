@@ -20,6 +20,7 @@
     background-color: #fff;
     border-right: 1px solid #e8ebe4;
     flex: 0 0 300px;
+    overflow: auto;
 }
 
 .perfil {
@@ -68,6 +69,7 @@ button {
     gap: 15px;
     border-bottom: 1px solid #ddd;
     cursor: pointer;
+
 }
 
 .mensaje img {
