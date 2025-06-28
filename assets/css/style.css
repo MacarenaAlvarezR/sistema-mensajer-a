@@ -24,7 +24,7 @@
 }
 
 .perfil {
-    padding: 20px;
+    padding: 18px;
     display: flex;
     border-bottom: 1px solid #e8ebe4;
     justify-content: space-between;
@@ -48,7 +48,7 @@
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #e8ebe4;
-    height: 120px;
+    height: 110px;
 }
 
 button {
@@ -65,7 +65,7 @@ button {
 
 .mensaje {
     display: flex;
-    padding: 15px;
+    padding: 10px;
     gap: 15px;
     border-bottom: 1px solid #ddd;
     cursor: pointer;
