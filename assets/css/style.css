@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu {
+    border: 1px solid #828485;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-right: 1px solid #e8ebe4;
+    flex: 0 0 300px;
+}
+
+.perfil {
+    padding: 20px;
+    display: flex;
+    border-bottom: 1px solid #e8ebe4;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.icon {
+    color: #828485;
+    cursor: pointer;
+}
+
+.perfil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.div-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e8ebe4;
+    height: 120px;
+}
+
+button {
+    background-color: #A491D2;
+    color: #fff;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 200px;
+    height: 45px;
+    border: 1px solid #f5f5f5;
+
+}
+
+.mensaje {
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.mensaje img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.estado {
+    font-size: 14px;
+    color: #828485;
+}
+
+.section-hand {
+    background-color: #f2f1f1;
+    display: flex;
+    height: 100vh;
+    width: 75%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 300px;
+}
+
+.container-hand {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #f2f1f1;
+
+}
+
+h1 {
+    font-family: open sans 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.span-hand {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.img-hand {
+    width: 230px;
+    height: 230px;
+}
